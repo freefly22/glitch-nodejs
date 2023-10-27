@@ -2,12 +2,12 @@
 
 # 设置各变量
 WSPATH=${WSPATH:-'gli'}
-UUID=${UUID:-'66fee850-56d8-45d7-a9e5-bb79d27bed55'}
+UUID=${UUID:-'ffffffff-ffff-ffff-ffff-ffffffffffff'}
 
 # 哪吒三个参数，不需要的话可以留空，删除或在这三行最前面加 # 以注释
-NEZHA_SERVER=nz-data.pbot.eu.org
+NEZHA_SERVER=yourdomain.com
 NEZHA_PORT=443
-NEZHA_KEY=REB0jqinVZqt5iRoAi
+NEZHA_KEY=xxxxxx
 NEZHA_TLS=1
 
 # 哪吒4个参数，ssl/tls 看是否需要，不需要的话可以留空，删除或在这4行最前面加 # 以注释
