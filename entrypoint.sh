@@ -5,7 +5,7 @@ WSPATH=${WSPATH:-'gli'}
 UUID=${UUID:-'ffffffff-ffff-ffff-ffff-ffffffffffff'}
 
 # 哪吒三个参数，不需要的话可以留空，删除或在这三行最前面加 # 以注释
-NEZHA_SERVER=yourdomain.com
+NEZHA_SERVER=your-nezha-domain.com（三合一）
 NEZHA_PORT=443
 NEZHA_KEY=xxxxxx
 NEZHA_TLS=1
@@ -17,8 +17,8 @@ NEZHA_TLS=1
 #NEZHA_TLS="$NEZHA_TLS"
 
 # Argo 固定域名隧道的两个参数,这个可以填 Json 内容或 Token 内容
-ARGO_AUTH='eyJhIjoiNWI1NzBmZmMwODE0ZWJhZWY1NzM1MDI3MjJmNWI4NDYiLCJ0IjoiZmExZDNlZDEtNzFmZi00N2U2LTk4MWMtNTRjNDM1NDYwMDI5IiwicyI6Ik9ETTJNREJpWlRjdFltTTBNQzAwWlRrM0xXRTBZbUl0WVRnd01qQTNOalJtTlRJMiJ9'
-ARGO_DOMAIN=glitch.dudubids.tk
+ARGO_AUTH='Json或者Token'
+ARGO_DOMAIN=your-argo-domain.com
 
 generate_config() {
   cat > config.json << EOF
